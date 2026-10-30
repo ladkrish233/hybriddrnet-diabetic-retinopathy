@@ -1,0 +1,97 @@
+[
+  {
+    "sample": "samples/stage_0_no_dr.png",
+    "dataset_row": 2389,
+    "true_grade": 0,
+    "true_label": "0 - No DR",
+    "predicted_grade": 0,
+    "predicted_label": "0 - No DR",
+    "correct": true,
+    "confidence": 0.8817,
+    "ordinal_score": -0.0033,
+    "probabilities": {
+      "0 - No DR": 0.8817,
+      "1 - Mild": 0.1052,
+      "2 - Moderate": 0.0103,
+      "3 - Severe": 0.0015,
+      "4 - Proliferative DR": 0.0012
+    },
+    "gradcam": "results/gradcam/stage_0_gradcam.png"
+  },
+  {
+    "sample": "samples/stage_1_mild.png",
+    "dataset_row": 1903,
+    "true_grade": 1,
+    "true_label": "1 - Mild",
+    "predicted_grade": 1,
+    "predicted_label": "1 - Mild",
+    "correct": true,
+    "confidence": 0.5972,
+    "ordinal_score": 1.4402,
+    "probabilities": {
+      "0 - No DR": 0.0056,
+      "1 - Mild": 0.5972,
+      "2 - Moderate": 0.3773,
+      "3 - Severe": 0.0054,
+      "4 - Proliferative DR": 0.0145
+    },
+    "gradcam": "results/gradcam/stage_1_gradcam.png"
+  },
+  {
+    "sample": "samples/stage_2_moderate.png",
+    "dataset_row": 785,
+    "true_grade": 2,
+    "true_label": "2 - Moderate",
+    "predicted_grade": 2,
+    "predicted_label": "2 - Moderate",
+    "correct": true,
+    "confidence": 0.7972,
+    "ordinal_score": 2.067,
+    "probabilities": {
+      "0 - No DR": 0.0016,
+      "1 - Mild": 0.0871,
+      "2 - Moderate": 0.7972,
+      "3 - Severe": 0.003,
+      "4 - Proliferative DR": 0.1111
+    },
+    "gradcam": "results/gradcam/stage_2_gradcam.png"
+  },
+  {
+    "sample": "samples/stage_3_severe.png",
+    "dataset_row": 2713,
+    "true_grade": 3,
+    "true_label": "3 - Severe",
+    "predicted_grade": 3,
+    "predicted_label": "3 - Severe",
+    "correct": true,
+    "confidence": 0.8682,
+    "ordinal_score": 3.101,
+    "probabilities": {
+      "0 - No DR": 0.0005,
+      "1 - Mild": 0.0007,
+      "2 - Moderate": 0.014,
+      "3 - Severe": 0.8682,
+      "4 - Proliferative DR": 0.1166
+    },
+    "gradcam": "results/gradcam/stage_3_gradcam.png"
+  },
+  {
+    "sample": "samples/stage_4_proliferative_dr.png",
+    "dataset_row": 1863,
+    "true_grade": 4,
+    "true_label": "4 - Proliferative DR",
+    "predicted_grade": 4,
+    "predicted_label": "4 - Proliferative DR",
+    "correct": true,
+    "confidence": 0.9052,
+    "ordinal_score": 4.0612,
+    "probabilities": {
+      "0 - No DR": 0.0021,
+      "1 - Mild": 0.0239,
+      "2 - Moderate": 0.025,
+      "3 - Severe": 0.0439,
+      "4 - Proliferative DR": 0.9052
+    },
+    "gradcam": "results/gradcam/stage_4_gradcam.png"
+  }
+]

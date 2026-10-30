@@ -1,0 +1,22 @@
+# Inference / app (CPU wheels are fine; for GPU install torch from pytorch.org)
+torch>=2.1
+torchvision>=0.16
+timm==1.0.9
+opencv-python-headless
+numpy
+scipy
+scikit-learn
+pandas
+pyarrow
+matplotlib
+fastapi
+uvicorn[standard]
+python-multipart
+streamlit
+requests
+httpx
+pytest
+
+# Training notebook only (installed by its own setup cell in Colab)
+# albumentations==2.0.8
+# albucore==0.0.24
